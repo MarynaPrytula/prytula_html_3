@@ -1,0 +1,188 @@
+body {
+  background: url(sea.jpg) repeat-x #0c73a0;;
+  margin: 0;
+}
+.wrapper {
+  margin: 0 auto 25px auto;
+  width: 75%;
+  background: #ffffff;
+  box-shadow: 0px 2px 10px 1px #000;
+  border-top: none;
+  border-bottom: none;
+  overflow: hidden;
+  height: 911px;
+}
+.logo {
+height: 170px;
+width: 265px;
+margin-left: 30px;
+margin-top: 1px;
+margin-bottom: -5px;
+}
+.Contacts {
+  height: 50px;
+  width: 200px;
+  margin-left: 820px;
+  margin-top: -188px;
+  line-height: 5px;
+  font-family: Tahoma;
+  font-size: 13px;
+
+}
+p:first-line {
+      font-weight: bold;
+      line-height: 40px;
+}
+p {
+  color: #128aa7;
+  line-height: 20px;
+}
+.button {
+ position: absolute;
+ margin: 60px 30px 0px 599px;
+ width: 500px;
+}
+.button a {
+ display: block;
+ float: left;
+ height: 70px;
+ width: 62px;
+ margin: 2px;
+ color: #128aa7;
+ font-size: Tahoma;
+ word-wrap: normal;
+ font-size: 12px;
+}
+.Picture {
+  width: 100%;
+  height: 270px;
+  margin-top: 127px;
+}
+#navbar li { 
+  display: inline;
+  float: left;
+  margin-right: 1px;
+  position: relative;
+  cursor: pointer;
+  }
+
+#navbar {
+  margin: 0;
+  padding: 6px 10px 10px 1px;
+  background-color: #333333;
+  display: inline-flex;
+  width: 100%;
+  margin-top: -4px;
+  box-shadow: 0px 1px 4px 2px #000;
+  z-index: 1;
+}
+#navbar li a {
+  color: #ffffff;
+  font-family: Tahoma;
+  font-size: 14px;
+  padding: 5px 5px 10px 65px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.partners:after, .services:after, #travel:after {
+  content: "";
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 8px solid white;
+  margin-top: 7px;
+  margin-left: 7px;
+  position: absolute;
+}
+#travel:after {
+  content: "";
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 8px solid white;
+  margin-top: -11px;
+  margin-left: 159px;
+  position: absolute;
+}
+
+ul li #dropbox {
+  display: none;
+  padding: 0 5px 0 0px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  margin: 11px 5px 0 60px; 
+  width: 146px;
+  background: #333333;
+  box-shadow: 0px 5px 7px -1px #404040;
+  font-size: 14px;
+  font-family: Tahoma;
+  color: #ffffff;
+  z-index: 2;
+}
+ul li #dropbox a {
+  padding: 5px;
+  font-family: Tahoma;
+  line-height: 25px;
+}
+
+ul li:hover #dropbox {
+display: block;
+}
+.container {
+position: absolute;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+width: 75%;
+height: 430px;
+left: 169px;
+top: 480px;
+z-index: 1;
+}
+.info, .empty, .news {
+  flex: 1 100%;
+  border: 1px solid #c7cacf;
+  height: 429px;
+}
+
+.info {
+  background: #edeef0;
+  margin: 0;
+  color: #424c43;
+  font-family: Tahoma;
+  font-size: 14px;
+  flex-basis: 602px;
+  padding-left: 11px;
+  padding-right: -9px;
+}
+.empty {
+  background: #ffffff;
+  flex-basis: 1726px;
+  margin: 0;
+}
+.news {
+ background: #edeef0;
+ width: 100px; 
+ color: #424c43;
+ font-family: Tahoma;
+ font-size: 14px;
+ flex-basis: 507px;
+ margin: 0;
+ padding-left: 18px;
+ padding-right: 29px;
+}
+.line, .infoname {
+  color: #424c43;
+  font-family: Tahoma;
+  font-size: 18px;
+  margin: 5px 40px 2px 35px;
+}
+.footer {
+color: #ffffff;
+font-size: 12px;
+font-family: Tahoma;
+margin: -20px 10px 10px 570px;
+padding: 5px 1px 0px 2px;
+position: absolute;
+width: 300px;
+}
